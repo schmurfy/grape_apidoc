@@ -2,7 +2,7 @@
 
 An api browser for your grape services.
 
-![Screenshot](doc/screen.png)
+![Screenshot](grape_apidoc/raw/master/doc/screen.png)
 
 This works well for basics services, you will certainly run into problems when using
 more complex services with the api query tool but the documentation should still work.
