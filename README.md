@@ -30,6 +30,16 @@ map '/api' do
 end
 ```
 
+to try it:
+
+```bash
+$ bundle
+$ cd example && bundle exec thin start
+```
+
+After this start a browser and go to http://localhost:3000/browser/index.html
+(I am sure we can remove the /index.html but I will see that later that is not where I wanted to spend my time)
+
 # Next Steps
 
 There are some things I want to do:
@@ -43,6 +53,6 @@ There are some things I want to do:
 
 # License
 
-See the LICENSE file for my code.
+See the LICENSE file for my code.  
 The included Swagger-ui code is released under the Apache License v2.0 and copyrighted by Wordnik.
 
